@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Daenen | Stukadoor Zuid-Limburg</title>
+  <meta name="description" content="Strak stucwerk voor grotere particuliere en zakelijke projecten in Zuid-Limburg. Bekend en vertrouwd. 20+ jaar ervaring en 100+ tevreden klanten. Gratis offerte via WhatsApp." />
+  <link rel="preload" href="css/styles.css" as="style" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/favicons/favicon-master-1024.png" type="image/svg+xml" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+
+
+  <a class="skip-link" href="#main">Ga naar inhoud</a>
+
+  <!-- SVG SPRITE (icoontjes, inline) -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="i-trowel" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M2 16l9-9 3 3-9 9H2v-3zM20.3 6.3l-2.6 2.6-3-3 2.6-2.6a2 2 0 012.8 0l.2.2a2 2 0 010 2.8z"/>
+    </symbol>
+    <symbol id="i-restore" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 5V2L8 6l4 4V7a5 5 0 11-5 5H5a7 7 0 107-7z"/>
+    </symbol>
+    <symbol id="i-drywall" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M3 5h18v14H3zM6 8h5v2H6V8zm0 4h12v2H6v-2zm0 4h8v2H6v-2z"/>
+    </symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2l2.2 5.6L20 10l-5.8 2.4L12 18l-2.2-5.6L4 10l5.8-2.4L12 2z"/>
+    </symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M6.6 10.8a15.5 15.5 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.6.7 4 .7.6 0 1 .4 1 1V20c0 1-1 2-2 2C9.4 22 2 14.6 2 5c0-1 1-2 2-2h3.4c.6 0 1 .4 1 1 0 1.4.2 2.8.7 4 .2.4 0 .8-.3 1.1l-2.2 2.2z"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M4 6h16a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2zm8 6L4 8v10h16V8l-8 4z"/>
+    </symbol>
+    <symbol id="i-map" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2a7 7 0 00-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 00-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/>
+    </symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M20.5 3.5A11 11 0 006 20l-2 4 4-2a11 11 0 0012.5-18.5zM7 18a9 9 0 1115-6.3A9 9 0 017 18zm10.3-5.6c-.1-.2-.5-.3-1-.5s-.6 0-.9.3-.5.6-.7.7-.4.1-.7 0-1.3-.5-2.5-1.7-1.7-2.1-1.9-2.4 0-.5.2-.7l.3-.4c.1-.2.1-.3.1-.5s0-.4 0-.5c0-.2-.1-.3-.2-.5s-.7-.4-1-.5-.6 0-.9.3-1.1 1-1.1 2.4 1.1 2.8 1.2 3 .9 1.5 2.2 2.7 3 1.9 3.4 2.1.8.2 1.1.1 1.4-.5 1.6-1 .2-1 .1-1.2z"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M20.3 5.7l-11 11-5-5L6.7 10l2.6 2.6 8.4-8.3 2.6 1.4z"/>
+    </symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 17.3l6.2 3.7-1.7-7.1L22 9.2l-7.2-.6L12 2 9.2 8.6 2 9.2l5.5 4.7-1.7 7.1L12 17.3z"/>
+    </symbol>
+    <symbol id="i-form" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2zm3 5h8v2H8V8zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/>
+    </symbol>
+    <!-- Google 'G' logo (klein en kleurrijk) -->
+<symbol id="i-google" viewBox="0 0 48 48">
+  <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.9 31.9 29.5 35 24 35c-6.6 0-12-5.4-12-12s5.4-12 12-12c3 0 5.7 1.1 7.7 3l5.7-5.7C33.6 5 29.1 3 24 3 12.9 3 4 11.9 4 23s8.9 20 20 20 19.5-8.9 19.5-20c0-1.4-.1-2.3-.3-3.5z"/>
+  <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.6 16.2 18.9 12.9 24 12.9c3 0 5.7 1.1 7.7 3l5.7-5.7C33.6 5 29.1 3 24 3 16 3 9.2 7.6 6.3 14.7z"/>
+  <path fill="#4CAF50" d="M24 43c5.3 0 10.1-2 13.6-5.3l-6.3-5.2C29 34.2 26.7 35 24 35c-5.5 0-9.9-3.1-11.7-7.6l-6.7 5.2C8.3 38.8 15.6 43 24 43z"/>
+  <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-1.1 3.3-3.8 5.6-6.7 7.5l6.3 5.2C37.5 39.8 43.5 35.5 43.5 23c0-1.4-.1-2.5-.3-3.5z"/>
+</symbol>
+
+  </svg>
+  
+
+<header class="site-header" data-elevate>
+  <div class="nav-wrap container">
+    <!-- LOGO -->
+    <a href="#top" class="brand" aria-label="Stukadoorsbedrijf John Daenen — Home">
+      <img
+        src="../assets/img/logo.png"
+        alt="Stukadoorsbedrijf John Daenen"
+        width="180" height="42"
+        decoding="async"
+        loading="eager"
+        fetchpriority="high"
+      />
+    </a>
+
+    <!-- NAV -->
+    <nav class="primary-nav" aria-label="Hoofdmenu">
+      <button class="nav-toggle" aria-controls="nav-list" aria-expanded="false" aria-label="Menu">
+        <span class="hamburger" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#diensten">Diensten</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#over">Over</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li class="only-mobile">
+          <a id="whatsappNav" class="btn btn-primary" href="#">WhatsApp</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- CTA desktop -->
+    <a id="whatsappNav" class="btn btn-primary btn-wa desktop-only" href="#" aria-label="WhatsApp offerte">
+      WhatsApp
+    </a>
+  </div>
+</header>
+
+
+  <main id="main">
+    <!-- HERO -->
+<section id="home" class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Bekend & vertrouwd in Zuid-Limburg</p>
+      <h1>Stukadoor voor <span class="accent">middelgrote &amp; grote projecten</span> in Zuid-Limburg</h1>
+
+      <!-- Proof bar -->
+      <div class="proofbar">
+        <span class="stars" aria-label="Gemiddeld 5 van 5 sterren">★★★★★</span>
+        <span class="sep">·</span>
+        <span>4,7 op Google</span>
+        <span class="sep">·</span>
+        <span>Sinds 2009</span>
+      </div>
+
+      <!-- CTA’s -->
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary" id="whatsappHero">WhatsApp offerte</a>
+        <a href="tel:+31613481358" class="btn btn-ghost">Bel direct</a>
+      </div>
+
+      <!-- Counters IN de hero -->
+      <div class="hero-counters">
+        <div class="hero-counter glass">
+          <span class="num counter-number" data-count-to="20" data-suffix="+">0</span>
+          <span class="label">jaar ervaring</span>
+        </div>
+        <div class="hero-counter glass">
+          <span class="num counter-number" data-count-to="100" data-suffix="+">0</span>
+          <span class="label">tevreden klanten</span>
+        </div>
+        <div class="hero-counter glass">
+          <span class="num counter-number" data-count-to="50" data-suffix="+">0</span>
+          <span class="label">projecten p/j</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-media">
+      <picture>
+        <img
+          loading="eager"
+          decoding="async"
+          src="assets/img/hero/hero-plasterer.png"
+          alt="Stukadoor met pet werkt een wand af (vanaf de rug, onherkenbaar)"
+          width="1200" height="1200">
+      </picture>
+      <!-- Subtiele overlay voor leesbaarheid -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+    </div>
+  </div>
+  <div class="hero-glow" aria-hidden="true"></div>
+</section>
+
+
+
+<section id="diensten" class="section section-services">
+  <div class="container">
+    <header class="section-head">
+      <h2>Diensten</h2>
+      <p>Strak, duurzaam en op tijd opgeleverd — particulier &amp; zakelijk.</p>
+    </header>
+
+    <ul class="svc-grid" role="list">
+      <!-- Sierpleister & spachtelputz -->
+      <li class="svc-card animate-in">
+        <figure class="svc-media">
+          <img src="assets/img/services/sierpleister-sq.png" alt="Close-up sierpleister/spachtelputz — strakke textuur" width="1200" height="1200" loading="lazy" decoding="async">
+        </figure>
+        <div class="svc-body">
+          <h3>Sierpleister &amp; spachtelputz</h3>
+          <p class="svc-copy">Slijtvaste structuur met egale dekking. Keuze in korrel en tint — strak, egaal en sausklaar.</p>
+          <ul class="svc-bullets">
+            <li><svg class="i"><use href="#i-check"/></svg>Kleurvast &amp; duurzaam</li>
+            <li><svg class="i"><use href="#i-check"/></svg>Netjes afgeplakt en opgeruimd</li>
+          </ul>
+          <div class="svc-meta">
+            <span class="chip">Binnen</span><span class="chip">Woonkamer</span>
+          </div>
+          <div class="svc-actions">
+            <a href="#" class="btn btn-primary svc-cta" data-wa="Sierpleister/Spachtelputz voor (ruimte):">WhatsApp offerte</a>
+            <a href="#portfolio" class="btn btn-ghost">Bekijk werk</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- Nieuwbouw & renovatie -->
+      <li class="svc-card animate-in">
+        <figure class="svc-media">
+          <img src="assets/img/services/nieuwbouw-sq.png" alt="Over-shoulder: stukadoor werkt nieuwe wand af" width="1200" height="1200" loading="lazy" decoding="async">
+        </figure>
+        <div class="svc-body">
+          <h3>Nieuwbouw &amp; renovatie</h3>
+          <p class="svc-copy">Strakke wanden en plafonds met een planning die klopt. Oplevering stofarm.</p>
+          <ul class="svc-bullets">
+            <li><svg class="i"><use href="#i-check"/></svg>Sausklaar afgeleverd</li>
+            <li><svg class="i"><use href="#i-check"/></svg>Afspraak = afspraak</li>
+          </ul>
+          <div class="svc-meta">
+            <span class="chip">Projectmatig</span><span class="chip">Zakelijk &amp; particulier</span>
+          </div>
+          <div class="svc-actions">
+            <a href="#" class="btn btn-primary svc-cta" data-wa="Nieuwbouw/renovatie stucwerk voor (project):">WhatsApp offerte</a>
+            <a href="#portfolio" class="btn btn-ghost">Bekijk werk</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- Restauratie -->
+      <li class="svc-card animate-in">
+        <figure class="svc-media">
+          <img src="assets/img/services/restauratie-sq.png" alt="Fijn herstel van scheur — restauratie detail" width="1200" height="1200" loading="lazy" decoding="async">
+        </figure>
+        <div class="svc-body">
+          <h3>Restauratie</h3>
+          <p class="svc-copy">Vakkundig herstel van scheuren en vochtschade — met respect voor details en bestaande structuur.</p>
+          <ul class="svc-bullets">
+            <li><svg class="i"><use href="#i-check"/></svg>Duurzame reparatie</li>
+            <li><svg class="i"><use href="#i-check"/></svg>Detailbehoud</li>
+          </ul>
+          <div class="svc-meta">
+            <span class="chip">Monument</span><span class="chip">Bestaand</span>
+          </div>
+          <div class="svc-actions">
+            <a href="#" class="btn btn-primary svc-cta" data-wa="Restauratie/Herstel (scheuren/vocht) voor (locatie):">WhatsApp offerte</a>
+            <a href="#portfolio" class="btn btn-ghost">Bekijk werk</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- Gipsplaat wanden & plafonds -->
+      <li class="svc-card animate-in">
+        <figure class="svc-media">
+          <img src="assets/img/services/gipsplaat-sq.png" alt="Close-up afwerking gipsplaatvoeg met spaan" width="1200" height="1200" loading="lazy" decoding="async">
+        </figure>
+        <div class="svc-body">
+          <h3>Gipsplaat wanden &amp; plafonds</h3>
+          <p class="svc-copy">Lichte scheidingswanden en verlaagde plafonds — strak gemonteerd en naadloos afgewerkt.</p>
+          <ul class="svc-bullets">
+            <li><svg class="i"><use href="#i-check"/></svg>Montage &amp; afwerking</li>
+            <li><svg class="i"><use href="#i-check"/></svg>Netjes en stofarm</li>
+          </ul>
+          <div class="svc-meta">
+            <span class="chip">Binnen</span><span class="chip">Akoestiek</span>
+          </div>
+          <div class="svc-actions">
+            <a href="#" class="btn btn-primary svc-cta" data-wa="Gipswand/Gipsplafond plaatsen en afwerken in (ruimte):">WhatsApp offerte</a>
+            <a href="#portfolio" class="btn btn-ghost">Bekijk werk</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="reviews" class="section section-reviews">
+  <div class="container">
+    <header class="section-head">
+      <h2>Reviews</h2>
+      <p>Recente beoordelingen (Google).</p>
+    </header>
+
+    <div class="reviews">
+      <!-- Review 1 -->
+      <article class="review-card animate-in" aria-label="5 van 5 sterren">
+        <div class="review-top">
+          <span class="g-badge">
+            <svg class="i i-g"><use href="#i-google"/></svg> Google
+          </span>
+          <div class="stars" aria-hidden="true">
+            <svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg>
+            <svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg>
+            <svg class="i"><use href="#i-star"/></svg>
+          </div>
+        </div>
+        <blockquote class="review-text">“Zeer tevreden met alle werkzaamheden van John en zijn team. De gehele woonkamer is strak gestuct en er is een nieuwe gipswand met deur geplaatst. Wij zijn er blij mee!”</blockquote>
+        <div class="review-meta">
+          <span class="reviewer">— Thom Heckers</span>
+          <time class="review-time">· 1 maand geleden</time>
+        </div>
+      </article>
+
+      <!-- Review 2 -->
+      <article class="review-card animate-in" aria-label="5 van 5 sterren">
+        <div class="review-top">
+          <span class="g-badge">
+            <svg class="i i-g"><use href="#i-google"/></svg> Google
+          </span>
+          <div class="stars" aria-hidden="true">
+            <svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg>
+            <svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg>
+            <svg class="i"><use href="#i-star"/></svg>
+          </div>
+        </div>
+        <blockquote class="review-text">“Dit is een stucadoor die je graag in je huis of zaak wilt hebben. Professioneel, punctueel &amp; alles is gericht op een kwalitatief eindproduct. Het resultaat is prachtig en alles is keurig opgeruimd. Dankje John!!”</blockquote>
+        <div class="review-meta">
+          <span class="reviewer">— Dennis &amp; Georgi Bovens</span>
+          <time class="review-time">· 6 maanden geleden</time>
+        </div>
+      </article>
+
+      <!-- Review 3 -->
+      <article class="review-card animate-in" aria-label="5 van 5 sterren">
+        <div class="review-top">
+          <span class="g-badge">
+            <svg class="i i-g"><use href="#i-google"/></svg> Google
+          </span>
+          <div class="stars" aria-hidden="true">
+            <svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg>
+            <svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg>
+            <svg class="i"><use href="#i-star"/></svg>
+          </div>
+        </div>
+        <blockquote class="review-text">“Ondanks flinke drukte heeft John toch tijd weten te maken om ook nog ons huis af te stuken. Een uitdagende klus die mooi opgeleverd is binnen 1 dag!”</blockquote>
+        <div class="review-meta">
+          <span class="reviewer">— Felix Sebastián Gubler</span>
+          <time class="review-time">· 10 maanden geleden</time>
+        </div>
+      </article>
+    </div>
+
+    <div class="center">
+      <a class="btn btn-ghost" href="https://www.facebook.com/stukadoorjohndaenen/" target="_blank" rel="noopener">Bekijk meer</a>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- PORTFOLIO -->
+<section id="portfolio" class="section section-portfolio clean-mag">
+  <div class="container">
+    <header class="section-head">
+      <h2>Portfolio</h2>
+      <p>Bekijk een selectie van projecten. Klik op een kaart om de viewer te openen.</p>
+    </header>
+
+    
+
+    <!-- GRID met projectkaarten (clean, groot) -->
+    <ul class="p-grid" role="list">
+      <!-- Project 1 -->
+      <li class="p-card" tabindex="0" data-gallery-id="g-facade" aria-label="Open project: Moderne uitbouw met ronding">
+        <figure class="p-media">
+          <img src="assets/img/projects/facade-1.jpg" alt="Moderne uitbouw met ronding" width="1600" height="900" decoding="async" loading="lazy">
+        </figure>
+        <div class="p-info">
+          <h3>Moderne uitbouw</h3>
+          <p class="muted">Buitengevel · ronding · strak afgewerkt</p>
+        </div>
+      </li>
+
+      <li class="p-card" tabindex="0" data-gallery-id="g-hoekpand" aria-label="Open project: Hoekpand — buitenstuc">
+  <figure class="p-media fit">
+    <img src="assets/img/projects/hoekpand/hoekpand-1.jpg"
+         alt="Hoekpand — voorgevel wit gestuct, strak afgewerkt"
+         width="1600" height="1200" loading="lazy" decoding="async">
+  </figure>
+  <div class="p-info">
+    <h3>Hoekpand — buitenstuc</h3>
+    <p class="muted">Maastricht · renovatie gevels · witte pleister</p>
+  </div>
+</li>
+
+
+      <!-- Project 2 -->
+      <li class="p-card" tabindex="0" data-gallery-id="g-interior" aria-label="Open project: Interieur wanden/plafond">
+        <figure class="p-media">
+          <img src="assets/img/projects/facade-2.jpg" alt="Interieur strak stucwerk" width="1600" height="900" decoding="async" loading="lazy">
+        </figure>
+        <div class="p-info">
+          <h3>Interieur wanden & plafonds</h3>
+          <p class="muted">Sausklaar · strakke lijnen</p>
+        </div>
+      </li>
+
+      <!-- Project 3 (voor/na) -->
+      <li class="p-card" tabindex="0" data-gallery-id="g-garden" aria-label="Open project: Tuinmuur voor/na">
+        <figure class="p-media">
+          <img src="assets/img/projects/gardenwall-after.jpg" alt="Tuinmuur na stucwerk" width="1600" height="900" decoding="async" loading="lazy">
+        </figure>
+        <div class="p-info">
+          <h3>Tuinmuur — vóór &amp; na</h3>
+          <p class="muted">Herstel · weerbestendig</p>
+        </div>
+      </li>
+      <!-- Badkamer — strakke wandafwerking -->
+<li class="p-card" tabindex="0" data-gallery-id="g-badkamer" aria-label="Open project: Badkamer — strakke wandafwerking">
+  <figure class="p-media fit">
+    <img src="assets/img/projects/badkamer/badkamer-1.jpg"
+         alt="Badkamerwand strak afgewerkt met nette overgang naar tegels"
+         width="1600" height="1200" loading="lazy" decoding="async">
+  </figure>
+  <div class="p-info">
+    <h3>Badkamer — strakke wandafwerking</h3>
+    <p class="muted">Binnenwerk · stuc &amp; tegelovergang · Limburg</p>
+  </div>
+</li>
+
+<!-- Overkapping — buitenplafond -->
+<li class="p-card" tabindex="0" data-gallery-id="g-overkapping" aria-label="Open project: Overkapping — buitenplafond">
+  <figure class="p-media fit">
+    <img src="assets/img/projects/overkapping/overkapping-1.jpg"
+         alt="Overkapping met strak wit buitenplafond langs tuin en glasgevel"
+         width="1600" height="1200" loading="lazy" decoding="async">
+  </figure>
+  <div class="p-info">
+    <h3>Overkapping — buitenplafond</h3>
+    <p class="muted">Buitenstuc · egaal plafond · strak detail</p>
+  </div>
+</li>
+
+    </ul>
+
+    <!-- TEMPLATES: slides per project (viewer leest deze in) -->
+    <template id="g-facade">
+      <figure class="pv-slide"><img src="assets/img/projects/facade-1.jpg" alt="Uitbouw met ronding — aanzicht 1"></figure>
+      <figure class="pv-slide"><img src="assets/img/projects/facade-2.jpg" alt="Uitbouw met ronding — aanzicht 2"></figure>
+    </template>
+
+    <template id="g-interior">
+      <figure class="pv-slide"><img src="assets/img/projects/facade-2.jpg" alt="Interieur — detail 1"></figure>
+      <figure class="pv-slide"><img src="assets/img/projects/facade-1.jpg" alt="Interieur — detail 2"></figure>
+    </template>
+
+    <template id="g-garden">
+      <!-- Before/After slide -->
+      <figure class="pv-slide pv-ba" data-ba>
+        <img class="ba-img ba-before" src="assets/img/projects/gardenwall-before.jpg" alt="Tuinmuur vóór stucwerk">
+        <img class="ba-img ba-after"  src="assets/img/projects/gardenwall-after.jpg"  alt="Tuinmuur na stucwerk">
+        <div class="ba-handle" aria-hidden="true"></div>
+        <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Voor/na schuifregelaar">
+      </figure>
+      <figure class="pv-slide"><img src="assets/img/projects/gardenwall-after.jpg" alt="Tuinmuur — eindresultaat"></figure>
+    </template>
+
+    <!-- Gallery: Badkamer -->
+<template id="g-badkamer">
+  <figure class="pv-slide">
+    <img src="assets/img/projects/badkamer/badkamer-1.jpg"
+         alt="Badkamer: vlakke wanden boven tegelwerk met strakke snijlijn">
+  </figure>
+  <figure class="pv-slide">
+    <img src="assets/img/projects/badkamer/badkamer-2.jpg"
+         alt="Detail hoekprofiel en nauwe voeg — stuc/tegelovergang">
+  </figure>
+  <figure class="pv-slide">
+    <img src="assets/img/projects/badkamer/badkamer-3.jpg"
+         alt="Badkamer: rondom raam en nis afgewerkt, egaal stucwerk">
+  </figure>
+</template>
+
+<!-- Gallery: Overkapping -->
+<template id="g-overkapping">
+  <figure class="pv-slide">
+    <img src="assets/img/projects/overkapping/overkapping-1.jpg"
+         alt="Overkapping: groot wit buitenplafond, strak en egaal">
+  </figure>
+  <figure class="pv-slide">
+    <img src="assets/img/projects/overkapping/overkapping-2.jpg"
+         alt="Overkapping: doorlopend plafond langs tuinpad en glaspuien">
+  </figure>
+</template>
+
+
+    <template id="g-hoekpand">
+  <figure class="pv-slide">
+    <img src="assets/img/projects/hoekpand/hoekpand-1.jpg"
+         alt="Hoekpand — schuin aanzicht met wit gestucte gevel">
+  </figure>
+  <figure class="pv-slide">
+    <img src="assets/img/projects/hoekpand/hoekpand-2.jpg"
+         alt="Hoekpand — voorgevel met erker, strak pleisterwerk">
+  </figure>
+  <figure class="pv-slide">
+    <img src="assets/img/projects/hoekpand/hoekpand-3.jpg"
+         alt="Hoekpand — lange zijgevel, egale afwerking">
+  </figure>
+  <figure class="pv-slide">
+    <img src="assets/img/projects/hoekpand/hoekpand-4.jpg"
+         alt="Hoekpand — hoekaanzicht met dakkapellen, wit stucwerk">
+  </figure>
+</template>
+
+
+    <!-- VIEWER (modal) — wordt gevuld door JS vanuit templates -->
+    <div class="pv" data-pv hidden aria-hidden="true" role="dialog" aria-label="Projectviewer">
+      <div class="pv-backdrop" data-pv-close></div>
+      <div class="pv-frame" role="document">
+        <button class="pv-x" aria-label="Sluiten" data-pv-close>
+          <svg viewBox="0 0 24 24" class="i" aria-hidden="true"><path d="M6.7 5.3 5.3 6.7 10.6 12l-5.3 5.3 1.4 1.4L12 13.4l5.3 5.3 1.4-1.4L13.4 12l5.3-5.3-1.4-1.4L12 10.6z" fill="currentColor"/></svg>
+        </button>
+
+        <button class="pv-arrow prev" aria-label="Vorige" data-pv-prev>
+          <svg viewBox="0 0 24 24" class="i" aria-hidden="true"><path d="M15.5 19a1 1 0 0 1-.7-.3l-6-6a1 1 0 0 1 0-1.4l6-6a1 1 0 1 1 1.4 1.4L10.9 12l5.3 5.3A1 1 0 0 1 15.5 19z" fill="currentColor"/></svg>
+        </button>
+        <button class="pv-arrow next" aria-label="Volgende" data-pv-next>
+          <svg viewBox="0 0 24 24" class="i" aria-hidden="true"><path d="M8.5 19a1 1 0 0 0 .7-.3l6-6a1 1 0 0 0 0-1.4l-6-6A1 1 0 1 0 7.8 6.7L13.1 12l-5.3 5.3A1 1 0 0 0 8.5 19z" fill="currentColor"/></svg>
+        </button>
+
+        <div class="pv-stage">
+          <ul class="pv-track" aria-live="polite"></ul>
+        </div>
+
+        <div class="pv-strip-wrap">
+          <ul class="pv-strip" tabindex="0" aria-label="Miniaturen"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- OFFERTE -->
+    <section id="offerte" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Gratis offerte via WhatsApp</h2>
+          <p>Klaar binnen 1 minuut. Voeg foto’s toe in WhatsApp voor een nog gerichtere inschatting.</p>
+        </header>
+
+        <form id="quoteForm" class="form-card" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Naam*</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="address">Adres / Plaats*</label>
+              <input id="address" name="address" type="text" autocomplete="address-line1" required />
+            </div>
+            <div class="field">
+              <label for="jobtype">Type klus*</label>
+              <input id="jobtype" name="jobtype" type="text" placeholder="Bijv. sierpleister woonkamer, renovatie plafond" required />
+            </div>
+            <div class="field">
+              <label for="budget">Budget (optioneel)</label>
+              <input id="budget" name="budget" type="text" placeholder="Bijv. €2.500 - €4.000" />
+            </div>
+            <div class="field span-2">
+              <label for="message">Aanvullende info</label>
+              <textarea id="message" name="message" rows="4" placeholder="M², planning, bijzonderheden..."></textarea>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="btn btn-primary" type="submit" id="whatsappSubmit"><svg class="i"><use href="#i-whatsapp"/></svg><span>Open WhatsApp</span></button>
+            <p class="form-note">Of <a href="#" id="whatsappBlank">stuur direct een WhatsApp</a> zonder formulier.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-faq">
+  <div class="container">
+    <header class="section-head">
+      <h2>Veelgestelde vragen</h2>
+      <p>Alles wat je wilt weten vóór je een <strong>gratis offerte via WhatsApp</strong> aanvraagt.</p>
+      <div class="trust-row">
+        <span class="chip"><svg class="i"><use href="#i-check"/></svg> 20+ jaar ervaring</span>
+        <span class="chip"><svg class="i"><use href="#i-star"/></svg> 100+ tevreden klanten</span>
+        <span class="chip"><svg class="i"><use href="#i-whatsapp"/></svg> Reactie &lt; 24 uur</span>
+      </div>
+    </header>
+
+    <div class="faq-grid">
+      <!-- Linker kolom: vragen -->
+      <div class="faq-col">
+        <!-- 1 -->
+        <details id="faq-prijs" class="faq-item animate-in" open>
+          <summary>
+            <span class="q">Wat kost stukadoorswerk bij jullie?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <p>De prijs hangt af van <em>oppervlak (m²)</em>, <em>ondergrond</em>, <em>afwerking</em> (bijv. sierpleister/spachtelputz of sausklaar) en of het <em>binnen of buiten</em> is. Voor een snelle richtprijs kun je het beste even WhatsAppen met:</p>
+            <ul class="ticks">
+              <li>Foto’s van de ruimte/gevel</li>
+              <li>Globale m² en type klus</li>
+              <li>Locatie (plaatsnaam in Limburg)</li>
+            </ul>
+            <p class="mini-cta"><a id="whatsappFAQ" class="btn btn-primary" href="#">Vraag gratis offerte aan</a></p>
+          </div></div>
+        </details>
+
+        <!-- 2 -->
+        <details id="faq-planning" class="faq-item animate-in">
+          <summary>
+            <span class="q">Hoe snel kunnen jullie starten?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <p>We plannen meestal binnen enkele weken in. <strong>Spoed is mogelijk</strong>—stuur een WhatsApp met “<em>spoed</em>”, de klus en foto’s. We reageren doorgaans binnen 24 uur.</p>
+          </div></div>
+        </details>
+
+        <!-- 3 -->
+        <details id="faq-gebied" class="faq-item animate-in">
+          <summary>
+            <span class="q">In welk gebied werken jullie?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <p>We werken in heel Limburg, met focus op Zuid-Limburg: Maastricht, Meerssen, Eijsden-Margraten, Valkenburg, Heerlen, Landgraaf, Kerkrade, Sittard-Geleen en omgeving.</p>
+          </div></div>
+        </details>
+
+        <!-- 4 -->
+        <details id="faq-diensten" class="faq-item animate-in">
+          <summary>
+            <span class="q">Welke diensten leveren jullie?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <ul class="ticks cols">
+              <li>Sierpleister &amp; spachtelputz</li>
+              <li>Nieuwbouw &amp; renovatie (binnen/buiten)</li>
+              <li>Gipsplaat wanden &amp; plafonds (montage + afwerking)</li>
+              <li>Restauratie en herstel (scheuren/vocht)</li>
+            </ul>
+          </div></div>
+        </details>
+
+        <!-- 5 -->
+        <details id="faq-werkwijze" class="faq-item animate-in">
+          <summary>
+            <span class="q">Hoe verloopt een offerte en de uitvoering?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <ol class="steps">
+              <li><strong>Contact via WhatsApp</strong> met foto’s + m² (we reageren &lt; 24 uur).</li>
+              <li><strong>Advies &amp; prijsinschatting</strong> (eventueel schouwing).</li>
+              <li><strong>Planning</strong> op datum, duidelijke afspraken.</li>
+              <li><strong>Uitvoering</strong> — netjes afgeplakt, stofarm, schoon opleveren.</li>
+            </ol>
+          </div></div>
+        </details>
+
+        <!-- 6 -->
+        <details id="faq-voorbereiding" class="faq-item animate-in">
+          <summary>
+            <span class="q">Wat moet ik voorbereiden?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <ul class="ticks">
+              <li>Ruimte zo leeg mogelijk maken (meubels afgedekt/aan de kant)</li>
+              <li>Stopcontacten/schakelaars bereikbaar</li>
+              <li>Parkeren/entree vrijmaken voor materiaal</li>
+            </ul>
+            <p>Afplakken en beschermen doen wij standaard.</p>
+          </div></div>
+        </details>
+
+        <!-- 7 -->
+        <details id="faq-droogtijd" class="faq-item animate-in">
+          <summary>
+            <span class="q">Wanneer kan er geverfd worden?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <p>Dat hangt af van laagdikte, ventilatie en temperatuur. Reken bij binnenwerk op meerdere dagen droging. We geven ter plekke advies voor jouw situatie.</p>
+          </div></div>
+        </details>
+
+        <!-- 8 -->
+        <details id="faq-garantie" class="faq-item animate-in">
+          <summary>
+            <span class="q">Bieden jullie garantie?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <p>We leveren pas op als het strak is. Mocht er achteraf iets spelen, neem even contact op—dan lossen we het netjes op.</p>
+          </div></div>
+        </details>
+
+        <!-- 9 -->
+        <details id="faq-zakelijk" class="faq-item animate-in">
+          <summary>
+            <span class="q">Werken jullie ook voor bedrijven/aannemers?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <p>Ja. Projectmatig werk, planning op maat en heldere afspraken. Factuur en documentatie in overleg.</p>
+          </div></div>
+        </details>
+
+        <!-- 10 -->
+        <details id="faq-omvang" class="faq-item animate-in">
+          <summary>
+            <span class="q">Doen jullie ook kleine klussen?</span>
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-panel"><div>
+            <p>We richten ons vooral op <strong>middelgrote tot grotere</strong> projecten. Een kleinere klus kan soms ingepland worden in overleg.</p>
+          </div></div>
+        </details>
+      </div>
+
+      <!-- Rechter kolom: conversiekaart -->
+      <aside class="faq-aside animate-in">
+        <div class="cta-card">
+          <h3>Gratis offerte via WhatsApp</h3>
+          <p class="muted">Stuur foto’s + m² en je krijgt vaak <strong>binnen 24 uur</strong> een reactie.</p>
+          <div class="quickchips">
+            <button class="chip" type="button" data-wa="Sierpleister / spachtelputz">Sierpleister</button>
+            <button class="chip" type="button" data-wa="Gipswand of -plafond (montage + afwerking)">Gipswand</button>
+            <button class="chip" type="button" data-wa="Restauratie / herstel (scheuren, vocht)">Restauratie</button>
+            <button class="chip" type="button" data-wa="Buitenstuc / gevel">Buitenstuc</button>
+          </div>
+          <a href="#" id="whatsappFAQ" class="btn btn-primary btn-block">WhatsApp offerte</a>
+          <ul class="ticks tiny">
+            <li>Reactie meestal &lt; 24 uur</li>
+            <li>Werkgebied: heel Limburg (focus Zuid)</li>
+            <li>Kosteloos &amp; vrijblijvend</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- SEO: structured data (FAQPage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type":"Question",
+        "name":"Wat kost stukadoorswerk bij jullie?",
+        "acceptedAnswer":{"@type":"Answer","text":"De prijs hangt af van oppervlak (m²), ondergrond, afwerking (sierpleister/spachtelputz of sausklaar) en binnen of buiten. Stuur foto's en m² via WhatsApp voor een snelle richtprijs."}
+      },
+      {
+        "@type":"Question",
+        "name":"Hoe snel kunnen jullie starten?",
+        "acceptedAnswer":{"@type":"Answer","text":"We plannen meestal binnen enkele weken. Spoed is mogelijk—stuur een WhatsApp met 'spoed', de klus en foto’s."}
+      },
+      {
+        "@type":"Question",
+        "name":"In welk gebied werken jullie?",
+        "acceptedAnswer":{"@type":"Answer","text":"Wij werken in heel Limburg, met focus op Zuid-Limburg: Maastricht, Meerssen, Eijsden-Margraten, Valkenburg, Heerlen, Landgraaf, Kerkrade, Sittard-Geleen en omgeving."}
+      },
+      {
+        "@type":"Question",
+        "name":"Welke diensten leveren jullie?",
+        "acceptedAnswer":{"@type":"Answer","text":"Sierpleister & spachtelputz, nieuwbouw & renovatie (binnen/buiten), gipsplaat wanden & plafonds (montage + afwerking), restauratie/herstel."}
+      },
+      {
+        "@type":"Question",
+        "name":"Hoe verloopt een offerte en de uitvoering?",
+        "acceptedAnswer":{"@type":"Answer","text":"1) WhatsApp met foto's + m². 2) Advies & prijsinschatting (eventueel schouwing). 3) Planning. 4) Uitvoering — netjes afgeplakt, stofarm, schoon opleveren."}
+      },
+      {
+        "@type":"Question",
+        "name":"Wanneer kan er geverfd worden?",
+        "acceptedAnswer":{"@type":"Answer","text":"Afhankelijk van laagdikte, ventilatie en temperatuur. Reken bij binnenwerk op meerdere dagen droging. We adviseren ter plekke wat veilig is voor jouw project."}
+      }
+    ]
+  }
+  </script>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Contact</h2>
+          <p>We reageren meestal dezelfde werkdag.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-card animate-in">
+            <h3>Gegevens</h3>
+            <ul class="contact-list">
+              <li><svg class="i"><use href="#i-map"/></svg> Groeneweg 3, 6241 NW Bunde</li>
+              <li><svg class="i"><use href="#i-phone"/></svg> <a href="tel:+31613481358">+31 6 13481358</a></li>
+              <li><svg class="i"><use href="#i-mail"/></svg> <a href="mailto:info@johndaenen.nl">info@johndaenen.nl</a></li>
+              <li><svg class="i"><use href="#i-check"/></svg> KvK: 14120335</li>
+            </ul>
+            <div class="contact-actions">
+              <a class="btn btn-primary" href="#" id="whatsappContact"><svg class="i"><use href="#i-whatsapp"/></svg><span>WhatsApp</span></a>
+              <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.facebook.com/stukadoorjohndaenen/">Facebook</a>
+            </div>
+          </div>
+
+          <div class="map-card animate-in">
+            <iframe title="Kaart Bunde" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Groeneweg%203%2C%206241%20NW%20Bunde&output=embed" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sticky CTA-dock (mobiel) -->
+  <nav class="sticky-cta" aria-label="Snel contact">
+    <a href="#" id="dockWA"><svg class="i"><use href="#i-whatsapp"/></svg><span>WhatsApp</span></a>
+    <a href="#offerte"><svg class="i"><use href="#i-form"/></svg><span>Offerte</span></a>
+    <a href="tel:+31613481358"><svg class="i"><use href="#i-phone"/></svg><span>Bel</span></a>
+  </nav>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Stukadoorsbedrijf John Daenen — Alle rechten voorbehouden.</p>
+      <p class="small">Alleen functionele cookies; geen tracking.</p>
+    </div>
+  </footer>
+
+  <script defer src="js/main.js"></script>
+</body>
+</html>
+
